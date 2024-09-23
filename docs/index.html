@@ -10,7 +10,7 @@
             It holds important information about the website's contents.
             The text inside the <title> element does show in the top tab of a web browser. 
              The <head> is where we will include info about styling the site, too. -->
-        <title>Starter HTML</title>
+        <title>Bears are the best</title>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <!-- Here is a place where we can add a little styling code called CSS to this page. 
@@ -18,43 +18,47 @@
         -->
         <style>
             body {
-                background: LightSteelBlue;
+                background: Gold;
             }
+            .headingTextbox {
+                height: 40px;
+                width: 350px;
+                background: Snow;
+                border: 5px solid black;
+                }
+                .paraTextbox {
+                height: 20px;
+                width: 1000px;
+                padding: 10px -10px 10px 10px;
+                background: Snow;
+                border: 2px solid black;
           </style>
     </head>
     <body>
         <!-- CONTENT FOR DISPLAY. The <body> element holds the content we see in the display window on the web browser.-->
-        <h1>Beginning HTML</h1>
-        <p>Here is some sample HTML to look at. This is a body paragraph with some
-                <strong>inline</strong> code to feature some text. Here is <a
-                href="https://behrend.psu.edu/penn-state-behrend">a link to an external
-            website</a>.</p>
-        <p>One of the best resources for learning HTML is <a href="https://www.w3schools.com/html/default.asp">w3Schools</a>. 
-            Here is a reference for <a href="https://htmlcolorcodes.com/">color codes you can use for styling</a>.</p>
-        <p>Each p element is a <strong>block</strong> element designed to make a block on the
-            page.</p>
-        <h2>What are block elements good for?</h2>
-        <p>The next element after this is a ul, or <q>unordered list</q>. It makes a bulleted list.</p>
-        <ul>
-            <li>headings</li>
-            <li>paragraphs</li>
-            <li>lists</li>
-            <li>tables</li>
-            <li>images</li>
-        </ul>
-        
-        <p>How about we look at an ol element, or <q>ordered</q> list? The code looks very similar to the <q>unordered</q> list. 
-            You have to see the difference by viewing in a web browser.</p>
-        <ol>
-            <li>morning</li>
-            <li>noon</li>
-            <li>afternoon</li>
-            <li>evening</li>
-            <li>night</li>
-        </ol>
+        <h1 class="headingTextbox">Why Bears Are The Best!</h1>
+        <p> Because I said so. But here's a cute photo!</p>
         <figure>
-            <img src="images/newt-mosaic4.png"/>
-            <figcaption>a stylized image of a firebelly newt that Dr. B made as a web logo on <a href="https://newtfire.org">newtfire.org</a></figcaption>
-        </figure> 
+            <img src="images/happyBear.webp"/>
+            <figcaption>Cute right!</figcaption>
+        </figure>
+        <p>If you don't think that is cute then here is a cub!</p>
+        <figure>
+            <img src="images/bearCubOnTree.jpg"/>
+                <figcaption>I'm always right I know.</figcaption>
+        </figure>
+        <p>Here is some facts if you aren't convinced.</p>
+        <ol>
+            <li>They can run up to 30 mph</li>
+            <li>They are very good climbers!</li>
+            <li>They are excellent swimmers</li>
+            <li>They eat a lot. Like me!</li>
+            <li>They care very strong and have sharp claws</li>
+        </ol>
+        <p>They can be chill too!</p>
+        <iframe width="500" height="400"
+            src="https://www.youtube.com/watch?v=rbE53XUtVw0">
+        </iframe>
+        <h1>I hope I have enlightened you!</h1>
     </body>
 </html>
