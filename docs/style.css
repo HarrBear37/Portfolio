@@ -1,0 +1,19 @@
+body {
+                background: Gold;
+            }
+            .headingTextbox {
+                height: 40px;
+                width: 350px;
+                background: Snow;
+                border: 5px solid black;
+                }
+                .paraTextbox {
+                height: 20px;
+                width: 1000px;
+                background: Snow;
+                border: 2px solid black;
+                }
+                img {
+                width: 25%
+                }
+               nav {text-align: center;}
