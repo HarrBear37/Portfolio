@@ -1,19 +1,54 @@
 body {
-                background: Gold;
-            }
-            .headingTextbox {
-                height: 40px;
-                width: 350px;
-                background: Snow;
-                border: 5px solid black;
-                }
-                .paraTextbox {
-                height: 20px;
-                width: 1000px;
-                background: Snow;
-                border: 2px solid black;
-                }
-                img {
-                width: 25%
-                }
-               nav {text-align: center;}
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Rockymountainnps_%281%29.jpg/1200px-Rockymountainnps_%281%29.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+img {
+    width: 25%;
+}
+img.line {
+    margin-left: 1em;
+    margin-right: 1em;
+}
+img.center {
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+}
+nav {
+    text-align: center;
+    background-color: Snow;
+    font-size: 250%;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: left;
+    font-size: 225%;
+}
+p {
+    font-size: 120%;
+}
+.textBox {
+    background-color: Snow;
+    text-align: left;
+    padding: 2em;
+    margin-block: 100px;
+    margin-left: 100px;
+    margin-right:100px;
+}
+.textBox2 {
+    background-color: Snow;
+    text-align: left;
+    padding: 2em;
+    margin-block: 100px;
+    margin-left: 100px;
+    margin-right:100px;
+    text-align: left;
+}
+figure {
+    text-align: center;
+}
