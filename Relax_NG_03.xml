@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="Relax_NG_03.rnc" type="application/relax-ng-compact-syntax"?>
+
+<xml>
+    <title><songName>A Living Grave</songName> - <artist type="main">NEET</artist> featuring <artist
+            type="featuring">DethTech</artist></title>
+    <song>
+        <verse n="1">
+            <ln>I’ve been</ln>
+            <ln>Looking outward</ln>
+            <ln>See nothing but grey</ln>
+            <ln>As all feeling fades</ln>
+            <ln>You’ve been</ln>
+            <ln>Looking older</ln>
+            <ln>And you’ve lost the smile</ln>
+            <ln>You had as a child</ln>
+        </verse>
+        <chorus>
+            <ln>Everyday</ln>
+            <ln>I beg for life</ln>
+            <ln>But in return</ln>
+            <ln>A sea of white</ln>
+            <ln>Nothingness</ln>
+            <ln>Rot and decay</ln>
+            <ln>As we march to</ln>
+            <ln>A living grave</ln>
+        </chorus>
+        <verse n="2">
+            <ln>I got lost on an empty road</ln>
+            <ln>No road leads me back to my home</ln>
+            <ln>You past me by to places I can’t go</ln>
+            <ln>So I’ll keep wandering on my own</ln>
+        </verse>
+        <chorus>
+            <ln>Everyday</ln>
+            <ln>I beg for life</ln>
+            <ln>But in return</ln>
+            <ln>A sea of white</ln>
+            <ln>Nothingness</ln>
+            <ln>Rot and decay</ln>
+            <ln>As we march to</ln>
+            <ln>A living grave</ln>
+        </chorus>
+        <bridge>
+            <ln>I know there is no way out</ln>
+            <ln>I can’t crawl out I’m stuck in the ground</ln>
+
+            <ln>No way out, there’s no way out</ln>
+            <ln>I can’t crawl out, I’m stuck in the ground</ln>
+        </bridge>
+        <chorus>
+            <ln>Everyday</ln>
+            <ln>I bеg for life</ln>
+            <ln>But in return</ln>
+            <ln>A sea of whitе</ln>
+            <ln>Nothingness</ln>
+            <ln>Rot and decay</ln>
+            <ln>As we march to</ln>
+            <ln>A living grave</ln>
+        </chorus>
+    </song>
+</xml>

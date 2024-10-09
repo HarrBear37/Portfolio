@@ -1,0 +1,17 @@
+start = xml
+xml = element xml {title, song}
+
+title = element title {mixed {(songName, artist+)+}}
+songName = element songName {text}
+artist = element artist {type, text}
+type = attribute type {xsd:string}
+
+song = element song {mixed {(verse+ | chorus+ | bridge)+}}
+
+verse = element verse {n, ln+}
+n = attribute n {xsd:integer}
+ln = element ln {text}
+
+chorus = element chorus {ln+}
+
+bridge = element bridge {ln+}
