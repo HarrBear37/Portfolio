@@ -9,11 +9,48 @@
     </head>
     <body>
         <div class="textBox">
+            <h1>Corpus Analysis Project!</h1>
+            <p>For this project, I have compared two speech from previous presidents. Those being:</p>
             <ol>
-                <li>I am comparing Kennedy_1962 and Truman_1947</li>
-                <li><img src="images/Screenshot%202024-11-05%20190949.png"/> <img src="images/Screenshot%202024-11-05%20190955.png"/></li>
-                <li>In both speeches, they say world a similar amount of times. The word is used in different ways. In Kennedy's speech, it is to talk about World War II. In contrast, Truman used it to talk about the world in general. </li>
+                <li><a href="../Kennedy_1962.txt">President Kennedy's speech in 1962</a></li>
+                <li><a href="../Truman_1947.txt">President Truman's speech in 1947</a></li>
             </ol>
+            <figure>
+                <img src="images/Kennedy_most_used_words.png" class="fig"/>
+                <figcaption>Fig.1 The words used most in Kennedy's speech.</figcaption>
+            </figure>
+            <figure>
+                <img src="images/Turman_most_used_words.png" class="fig"/>
+                <figcaption>Fig. 2 The words used most in Truman's speech.</figcaption>
+            </figure>
+            <p>In both speeches, they say 'world' a similar amount of times. But, the word is used in differents ways. In Kennedy's speech. it is talking about the world in general. In contrast, Truman used it to talk about World War II.</p>
+            <p style="font-size: 75%;">Note: I messed up the names in my original submition. My apologies.</p>
+        </div>
+        <div class="textBox">
+            <h1>Frequency of Words</h1>
+            <p>I first tried to see the n-gram count of 3</p>
+            <figure>
+                <img src="images/frequency_3set_words.png"/>
+                <figcaption>Fig. 3 n-gram size: 3</figcaption>
+            </figure>
+            <p>Both speeches use 'the united states' a lot. This is pretty obvious for a president speech. I think the second most used 3 count, 'of the united' is an extention of the 1 rank.</p>
+            <p>When I go to a n-gram count of 4, the 1st rank 'type' is 'of the united states.' The information presented is the reason why I think they are connected.</p>
+            <hr/>
+            <h1>Other Frequencies</h1>
+            <p>I wanted to mess around and try to see if I can find anything interesting in these two speeches. Here is what I found.</p>
+            <figure>
+                <img src="images/n-gram_highest.png"/>
+                <figcaption>Fig. 4 n-gram size: 5</figcaption>
+            </figure>
+            <p>In this screenshot, I wanted to see what is the highest n-gram size I can get to. The answer is 5. 3 came up. I was a little suprised that it only went up to 5. In my head, I thought it would go up to7 or 8</p>
+            <figure>
+                <img src="images/weird_similarity.png"/>
+                <figcaption>Fig. 5 odd similarity</figcaption>
+            </figure>
+            <p>While I was looking at the docs I noticed something wierd. They both had this 3 n-gram similarity. 'the nation s.' I thought this was weird because it looks like a type. It happens on both and appears 42 times. This was just something weird and funny I found.</p>
+        </div>
+        <div class="textBox">
+            <p>*Monkey noises*</p>
         </div>
     </body>
 </html>

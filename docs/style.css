@@ -15,6 +15,9 @@ img.center {
     margin-left: auto;
     margin-right:auto;
 }
+img.fig {
+    width: 75%;
+}
 nav {
     text-align: center;
     background-color: Snow;
