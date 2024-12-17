@@ -3,6 +3,11 @@ body {
     background-attachment: fixed;
     background-size: cover;
 }
+body.game{
+    background-image: url("https://t4.ftcdn.net/jpg/01/28/98/53/360_F_128985367_mNdX0b56w6OcgiyUDnZwukpK1bkpfWwI.jpg"); 
+    background-attachment: fixed;
+    background-size: cover;
+}
 img {
     width: 25%;
 }
@@ -43,8 +48,8 @@ p {
     margin-left: 100px;
     margin-right:100px;
 }
-.textBox2 {
-    background-color: Snow;
+.textBoxGreen {
+    background-color: #32CD32;
     text-align: left;
     padding: 2em;
     margin-block: 100px;
@@ -52,6 +57,41 @@ p {
     margin-right:100px;
     text-align: left;
 }
+.textBoxRed {
+    background-color: #B22222;
+    text-align: left;
+    padding: 2em;
+    margin-block: 100px;
+    margin-left: 100px;
+    margin-right:100px;
+}
+.textBoxBlue{
+    background-color: #6A5ACD;
+    text-align: left;
+    padding: 2em;
+    margin-block: 100px;
+    margin-left: 100px;
+    margin-right:100px;
+}
+.textBoxOrange{
+    background-color: #FFA500;
+    text-align: left;
+    padding: 2em;
+    margin-block: 100px;
+    margin-left: 100px;
+    margin-right:100px;
+}
+.textBoxGrey{
+    background-color: #A9A9A9;
+    text-align: left;
+    padding: 2em;
+    margin-block: 100px;
+    margin-left: 100px;
+    margin-right:100px;
+}
 figure {
     text-align: center;
+}
+hr {
+    color: black;
 }
