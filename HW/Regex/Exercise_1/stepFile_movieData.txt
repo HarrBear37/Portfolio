@@ -1,0 +1,12 @@
+1. I replaced the & with &amp;
+2. I made the beginning of every line have a <movie> and a </movie> at the end.
+3. I then replaced every tab space into a new line.
+4. I used regex that included parentheses to get the information. Then in the replace it with xml expressions and 
+I used the regex ^(\D+) to get the title
+i used the regex (\d\d\d\d) to get the year
+i used the regex (\d\d*\d*) (min) to get the run time
+Iused the regex
+\t(\w+)\t
+\t (\w+ \w+)\t
+\t"(\w+, \w+)"\t
+to get the country
