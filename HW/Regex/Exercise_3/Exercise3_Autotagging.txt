@@ -1,0 +1,8 @@
+1. I first looked for &, < and >. There were none in the document.
+2. I searched for places with an unnecessary amount of blank spaces. I replaced them so there were only 2 blank lines in between each. The expression is used was \2{n}. There were lines that were different in each so I had to make "n" a different value to locate them.
+3. I next found blank lines by using the expression ^$ and replaced them wiht </p><p>
+4. The expression ^(I\. ) helped find the first chapter. I used \w+ to get all the words in the title. To get the whole title of chapter 1 I used, ^(I\. \w+ \w+)
+Depending on how many words there were would determine how many \w+ I would use. There were some cases were I had to use \D to get any special characters.
+I replaced what I found with <title>\1</title>. The \1 would let me keep what I was searching for.
+5. I used the expression (<title>) to get the beginning of the chapters. Then, I replaced it with </chapter>\n<chapter>\n \1
+6. In the xml document, I did some clean up.
