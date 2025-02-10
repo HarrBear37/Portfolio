@@ -1,0 +1,6 @@
+1a. I started by checking for &, <, and >.
+1b. I found none which means I don't need to change anything for this step.
+2a. I used the close open method to the <sp>'s. I found lines in between paragraphs using \n\n
+2b. I replaced what I found with \n</sp>\n<sp>\n
+3a.I cop and pasted everything into an XML doc and did some cleaning. I had to add an element around everything and an <sp> at the beginning of the first paragrapth. I also had to do this with the at the last paragraph but with a </sp>.
+3b. After this I put it in pretty print.
