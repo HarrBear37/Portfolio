@@ -15,7 +15,8 @@ var colorMe1 = document.getElementById("colorToggle")
 
 function noClick() {
     alert('I said do NOT click me!');
-    var p = document.getElementById('p')
-    for (var i = 0, length = p.length; i < length; i++){}
-    {p[i].style.backgroundColor = "red";}
+    var element = document.getElementByTagName("p");
+    for (var i = 0, length = element.length; i < length; i++){
+    {element[i].style.backgroundColor = "red";}
     }
+}
