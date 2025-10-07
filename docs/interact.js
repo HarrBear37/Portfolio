@@ -1,7 +1,6 @@
 window.addEventListener('DOMContentLoaded',init,false);
 
 function init() {
-    alert('The page loaded!');
     var buttons = document.getElementsByTagName("button")
     buttons[0].addEventListener('click', changeColor,false)
     buttons[1].addEventListener('click', noClick, false)
@@ -15,7 +14,7 @@ var colorMe1 = document.getElementById("colorToggle")
 
 function noClick() {
     alert('I said do NOT click me!');
-    var element = document.getElementByTagName("p");
+    var element = document.getElementsByTagName("div");
     for (var i = 0, length = element.length; i < length; i++){
     {element[i].style.backgroundColor = "red";}
     }
